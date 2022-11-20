@@ -51,6 +51,7 @@ class Employee(Person):
         # Calling constructor of Base Class
         # Person.__init__(self,emp_name)
         super().__init__(emp_name)
+        ##
         
     def isEmployed(self):
         print(self.name," is Employed !!")
